@@ -90,6 +90,9 @@ li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*benefits is the stuff on the side of the page. Since there's only one aside, there's an ID being used for it 
+NOT to be confused with benefit . Notice the lack of an s. benefit(s) affets the whole aside, benefit_ is for each list in the aside.
+Makes sense? Good.*/
 
 .benefit {
     margin-bottom: 32px;
@@ -106,6 +109,8 @@ li {
     max-width: 150px;
 
 }
+
+/*These class names are pretty self explanatory */
 
 .left-content-boxes {
     margin-bottom: 20px;
@@ -125,7 +130,7 @@ li {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Yeah these too */
 footer {
     padding: 30px;
     clear: both;
