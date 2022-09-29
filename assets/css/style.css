@@ -2,18 +2,22 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* Specifies default width, height, padding and margin properties for page */
 }
 
 body {
     background-color: #d9dcd6;
+    /* Sets background of page to white */
 }
 p {
     font-size: 16px;
+    /* sets default font size in paragraph tags to 16px */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    /* Turns nav bar links white and strips their default link visuals  */
 }
 
 header {
@@ -27,6 +31,7 @@ header {
     color: #d9dcd6; 
     display: inline-block;
     font-size: 48px;
+    /* Sets main title text to large white */
 }
 
 .headerlist {
@@ -35,16 +40,18 @@ header {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    
+    /* Making navbar list pretty and sticking it to the right of its available position. */
 }
 
 .headbar {
     list-style-type: none;
+    /*removes bullet points from navbar list */
 }
 
 li {
     display: inline-block;
     margin-left: 25px; 
+    /* All lists are displayed inline with a left margin by default */
 }
 
 .backgroundpic {
@@ -54,19 +61,20 @@ li {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    /* Properly displays the background picture centered in background */
 }
 
 .left-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-
+    /* Makes it so that the main content won't take up the whole page, to fit the aside in later */
 }
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Float left and float right are to properly place the images in main for aesthetic purposes */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -96,6 +104,7 @@ li {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+
 }
 
 .left-content-boxes {
@@ -105,9 +114,11 @@ li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 0 70px 20px 20px;
 }
 .left-content img {
     max-height: 200px;
+    border-radius: 30px 30px 10px 10px;
 }
 
 .left-content h2{
